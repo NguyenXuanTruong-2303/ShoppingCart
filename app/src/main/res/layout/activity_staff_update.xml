@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+
+    <TextView
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SỬA NHÂN VIÊN"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+        android:gravity="center"/>
+
+    `<EditText
+    android:id="@+id/edt_update_id"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:hint="Nhập ID"
+    android:textColorHint="@color/black"
+    android:textSize="15sp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:paddingLeft="15dp"
+    android:layout_marginTop="30dp"
+    android:textColor="@color/black"
+    android:background="#E6E6E6"/>
+
+    <EditText
+        android:id="@+id/edt_update_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#E6E6E6"
+        android:hint="Nhập tên nhân viên"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edt_update_room"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nhập phòng làm"
+        android:textColorHint="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:background="#E6E6E6"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_staff_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sửa"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#00BCD4"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_back_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trở về"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#434343"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

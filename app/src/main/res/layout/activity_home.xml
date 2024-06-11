@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Home"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/txt_hometitle1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="132dp"
+        android:gravity="center"
+        android:text="Quản lý nhân sự"
+        android:textColor="#01B607"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_hometitle2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="FPOLY SOFTWARE COMPANY"
+        android:textColor="#F80101"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_hometitle1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_phongban"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/button_home"
+        android:drawableTop="@drawable/home"
+        android:padding="10dp"
+        android:text="Phòng ban"
+        android:textColor="#FF0909"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_hometitle2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_nhanvien"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_phongban"
+        app:layout_constraintTop_toTopOf="@+id/btn_phongban"
+        android:background="@drawable/button_home"
+        android:padding="10dp"
+        android:drawableTop="@drawable/people"
+        android:text="Nhân Viên"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#054EE1"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_exit"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/button_home"
+        android:drawableTop="@drawable/exit"
+        android:padding="10dp"
+        android:text="Thoát"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_phongban" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
